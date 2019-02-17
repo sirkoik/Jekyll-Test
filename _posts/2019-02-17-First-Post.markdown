@@ -41,7 +41,8 @@ bundle exec jekyll serve --watch
 ```bash
 bundle update
 ```
-8. Now navigate to `http://0.0.0.0:4000`; should see the site.
+8. Now navigate to `http://0.0.0.0:4000`; you should see the site.
+10. Everything is set up locally. Now add changes to make compatible with the remote repository.
 10. Now add `.gitignore`s for the vendor and bundle files, so they don't get uploaded (they're only needed so your local computer can run the server)
 11. Make sure to set the `_config.yml` `baseurl` to `/<repository-name>/` and add it if it isn't
 12. Needs to be on `gh-pages` branch.
@@ -51,6 +52,7 @@ git add .
 git commit -m 'Add Jekyll'  
 git push origin gh-pages
 ```
-15. If remote repository is not created, do so on GitHub website and follow instructions to synch a local repository
-16. Always make edits on the `gh-pages` branch.
-17. You can add new posts in the `_posts` directory.
+1. If remote repository is not created, do so on GitHub website and follow instructions to synch a local repository
+1. Always make edits on the `gh-pages` branch.
+1. You can add new posts in the `_posts` directory.
+1. If set up properly the `gh-pages` site will accessible in `https://<username>.github.io/<repository-name>`. Might take a few seconds to update
