@@ -1,17 +1,14 @@
 ---
 layout: post
-title:  "First test post"
-date:   2019-02-17 16:09:01 -0500
+title:  "How to install and run a site with Jekyll"
+date:   2019-02-17 16:43:01 -0500
 categories: testing myposts
 ---
 
 # Hello there!
 
-I'm just testing out Jekyll. I'm glad to finally get it working!
-
-Here are my notes on how to get it working.
-
-1. Install ruby
+Here are my notes on how to get Jekyll working.  
+1. Install Ruby
 2. Install the bundler dependency manager for Ruby.  
 ```bash
 sudo gem install bundler
@@ -55,3 +52,5 @@ git commit -m 'Add Jekyll'
 git push origin gh-pages
 ```
 15. If remote repository is not created, do so on GitHub website and follow instructions to synch a local repository
+16. Always make edits on the `gh-pages` branch.
+17. You can add new posts in the `_posts` directory.
