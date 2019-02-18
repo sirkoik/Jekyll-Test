@@ -13,6 +13,3 @@ Here are my repositories:
 {% for repository in site.github.public_repositories %}
 * [{{ repository.name }}]({{ repository.html_url }})
 {% endfor %}
-
-Branch name (this requires auth):
-{{ site.github.source.branch }}
