@@ -37,7 +37,7 @@ rmdir initdir
 ```bash
 bundle exec jekyll serve --watch
 ```
-7. If you get an error message related to tzinfo, type the following:  
+7. If you get error messages related to tzinfo, type the following:  
 ```bash
 bundle update
 ```
